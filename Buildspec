@@ -1,2 +1,3 @@
-test
-test
+base_image: ubuntu
+install_script: [admin/install.sh]
+start_script: [test-server, -p, 8000]
